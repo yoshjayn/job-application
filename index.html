@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application <small> (web)</small></h1>
+        <form action="">
+    <div class="form-container">
+    <div class="form-control">
+    <div class="input-field">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname"></input>
+    </div>
+    <div class="input-field">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname"></input>
+    </div>
+    <div class="input-field">
+        <label for="email">Email:</label>
+        <input type="email" id="email"></input>
+    </div>
+    <div class="input-field">
+        <label for="role">Job Role</label>
+        <select name="role"  id="role">
+            <option value="" disabled selected hidden>Select Job Role</option>
+            <option value="Front">Front End Developer</option>
+            <option value="Back">Back End Developer</option>
+            <option value="uiux">UI & UX</option>
+        </select>
+    </div> 
+    <div class="input-field"  id="relative">
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" row="3" cols="50"></textarea>
+        </div>
+    <div></div>
+    <div class="input-field">
+            <label for="city">City:</label>
+            <input type="text" id="city"></input>
+        </div>
+    <div class="input-field">
+            <label for="pin">Pincode:</label>
+            <input type="number" id="pin"></input>
+        </div>
+    <div class="input-field">
+        <label for="date">Start Date:</label>
+        <input type="date" id="date" value="2023-11-18"></input>     <!--placeholder="2023-11-18" ain't working-->  
+    </div>
+    <div class="input-field">
+        <label for="cv">Upload Your CV:</label>
+        <input type="number" id="pin"></input>
+    </div>
+        </div>
+        </div>
+        <div class="click-container">
+            <button type="submit">Apply Now</button>
+            </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>
